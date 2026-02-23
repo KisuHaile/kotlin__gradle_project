@@ -43,6 +43,10 @@ fun handleMenuAction(
             listAllBooks(repository)
             true
         }
+        "7" -> {
+            listAllPatrons(repository)
+            true
+        }
 
         "0" -> false
 
